@@ -49,13 +49,17 @@ You have access to exactly 8 flat types. Here is the ONLY data you know:
    - Keep answers concise and professional.
    - If the user asks for data about the building you dont have simply point them to use the contact us page from the nav bar saying such data isnt available to you.
 5. **Location:**
-   - WADI AL SAFA, DUBAI
-   - Wadi Al Safa is strategically located with easy access to major Dubai landmarks and amenities.
+   - WADI AL SAFA 5, DUBAI
+   - Wadi Al Safa 5 is strategically located with easy access to major Dubai landmarks and amenities.
    - It's just a short drive from :
         Downtown Dubai
         Dubai Mall
         Burj Khalifa
         Dubai Hills Mall
+6. Extra Info:
+   - Total number of units: 318 unit
+   - Floor numbers: G+P1+10 
+   - Number of units per floor: 16 units per floor 
 """
 
 @app.route('/api/chat', methods=['POST'])
