@@ -10,6 +10,7 @@ This project is an AI chatbot that can:
 *   Suggest flats based on user requirements (e.g., size, number of rooms).
 *   Answer questions about building amenities (Gym, Pool, Tennis Court).
 *   Handle basic conversational interactions.
+*   Use Ids of Image Assets when needed in the chat directly later to be replaced via the front-end.
 
 ## Features
 
