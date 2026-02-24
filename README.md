@@ -83,8 +83,8 @@ This project can be adapted for other use cases or extended with new features.
 
 ### Customization
 
-*   **Data Source**: The AI's knowledge is based on the `flats.csv` file. This can be replaced with any other CSV file to suit your needs. Remember to update the `SYSTEM_PROMPT` in `app.py` and `cli.py` to match the new data structure.
-*   **AI Persona**: The `SYSTEM_PROMPT` variable also defines the AI's personality and behavior. This can be modified to create a different type of assistant.
+*   **Data Source**: The AI's knowledge is based on the `flats.csv` file. This can be replaced with any other CSV file to suit your needs. The flat table is injected into `system_prompt.txt` using the `{FLAT_DATA}` placeholder.
+*   **AI Persona**: Update `system_prompt.txt` to change the assistant's personality and behavior for both `app.py` and `cli.py`.
 
 ### Extending the Project
 
