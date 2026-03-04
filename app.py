@@ -60,7 +60,7 @@ def chat():
         # In the new SDK, we use client.models.generate_content
         # We send the system prompt in the 'config'
         response = client.models.generate_content(
-            model='gemini-2.5-flash', 
+            model='gemini-3.1-flash-lite-preview', 
             contents=formatted_history + [
                 types.Content(role="user", parts=[types.Part(text=user_message)])
             ],
